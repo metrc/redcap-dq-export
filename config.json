@@ -1,0 +1,29 @@
+{
+  "name": "Data Quality Export",
+  "description": "export data quality reports",
+  "documentation": "README.md",
+  "namespace": "METRC\\DQExport",
+  "versions": [
+    {
+      "0.1.0": "Initial Development Version"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Paige Julianne Sullivan",
+      "email": "psullivan@jhu.edu",
+      "institution": "Johns Hopkins Bloomberg School of Public Health - METRC"
+    }
+  ],
+  "links": {
+    "project": [
+      {
+        "name": "DQExport",
+        "icon": "checklist",
+        "url": "index.php"
+      }
+    ]
+  },
+  "permissions": [
+  ]
+}
