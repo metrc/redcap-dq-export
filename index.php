@@ -9,7 +9,7 @@ require_once APP_PATH_DOCROOT . 'ProjectGeneral/header.php';
 
 ?>
 
-    <h4>DQExport</h4>
+    <h4>Data Quality Export</h4>
     <hr/>
 
 <?php

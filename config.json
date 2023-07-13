@@ -1,11 +1,11 @@
 {
   "name": "Data Quality Export",
-  "description": "export data quality reports",
+  "description": "export data quality reports to CSV",
   "documentation": "README.md",
   "namespace": "METRC\\DQExport",
   "versions": [
     {
-      "0.1.0": "Initial Development Version"
+      "0.1.0": "Initial release"
     }
   ],
   "authors": [
