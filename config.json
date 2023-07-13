@@ -18,7 +18,7 @@
   "links": {
     "project": [
       {
-        "name": "DQExport",
+        "name": "Data Quality Export",
         "icon": "checklist",
         "url": "index.php"
       }
