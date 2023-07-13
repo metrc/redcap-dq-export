@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: Data Quality Export Module for REDCap
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Paige
+    family-names: Sullivan
+    email: psullivan@jhu.edu
+    affiliation: Johns Hopkins University
+    orcid: 'https://orcid.org/0009-0002-7041-9547'
+repository-code: 'https://github.com/metrc/redcap-dq-export'
+abstract: >-
+  This is an external module for REDCap that allows users to
+  export data quality reports to CSV format
+keywords:
+  - redcap
+  - redcap-external-module
+  - redcap-repo
+license: MIT
