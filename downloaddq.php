@@ -1,4 +1,5 @@
 <?php
+
 header("Cache-Control: no-cache, must-revalidate");
 header("Expires: Mon, 14 Mar 1980 20:31:00 GMT");
 header('Content-Type: text/csv; charset=utf-8');
@@ -23,7 +24,8 @@ while ($row = db_fetch_assoc($q))
     }
 }
 
-foreach(htmlspecialchars($_POST['rule'], ENT_QUOTES) as $rule_id) {
+foreach($_POST['rule'] as $rule_id) {
+    $rule_id = strip_tags($rule_id);
 
     // Get rule info
     $rule_info = $dq->getRule($rule_id);
@@ -33,7 +35,6 @@ foreach(htmlspecialchars($_POST['rule'], ENT_QUOTES) as $rule_id) {
 
     $results = $dq->getLogicCheckResults();
     // var_export($results);
-
 
     foreach($results[$rule_id] as $result_num => $result_data) {
         $results[$rule_id][$result_num]['rule_id'] = $rule_id;
