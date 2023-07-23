@@ -25,7 +25,7 @@ while ($row = db_fetch_assoc($q))
 }
 
 foreach($_POST['rule'] as $rule_id) {
-    $rule_id = strip_tags($rule_id);
+    $rule_id = htmlspecialchars($rule_id, ENT_QUOTES);
 
     // Get rule info
     $rule_info = $dq->getRule($rule_id);
