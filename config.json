@@ -27,5 +27,6 @@
     ]
   },
   "permissions": [
-  ]
+  ],
+  "framework-version": 12
 }
